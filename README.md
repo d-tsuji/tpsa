@@ -1,12 +1,11 @@
 # TPSA
 
-Temperature Parallel Simulated Annealing
+This repository that solves the Traveling Salesman Problem (TSP) using temperature parallel simulated annealing.
 
 ## Installation
 ```
 $ go get github.com/d-tsuji/tpsa
 ```
-
 
 ## Usage
 
