@@ -141,7 +141,7 @@ func (t *TPSA) exchangeSolutions(count int) {
 }
 
 func (t *TPSA) loadData() error {
-	tspData, err := os.Open("./data/" + t.DataFileName)
+	tspData, err := os.Open("./testdata/" + t.DataFileName)
 	if err != nil {
 		return err
 	}
@@ -203,7 +203,7 @@ func (t *TPSA) makeInitialData() error {
 func (t *TPSA) printSolution() {
 	fmt.Printf("Data(%v)\n", t.DataFileName)
 	fmt.Printf("TPSA solution  : %v\n", t.getTotalCost(&(t.Tours[t.Thread-1])))
-	tspData, err := os.Open("./data/ans/" + strings.ReplaceAll(t.DataFileName, ".tsp", "") + ".opt.tour")
+	tspData, err := os.Open("./testdata/ans/" + strings.ReplaceAll(t.DataFileName, ".tsp", "") + ".opt.tour")
 	if err != nil {
 		panic(err)
 	}
