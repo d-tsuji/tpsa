@@ -1,12 +1,13 @@
 # TPSA
 
-Temperature Parallel Simulated Annealing
+[![Go Report Card](https://goreportcard.com/badge/github.com/d-tsuji/tpsa)](https://goreportcard.com/report/github.com/d-tsuji/tpsa)
+
+This repository that solves the Traveling Salesman Problem (TSP) using temperature parallel simulated annealing.
 
 ## Installation
 ```
 $ go get github.com/d-tsuji/tpsa
 ```
-
 
 ## Usage
 
