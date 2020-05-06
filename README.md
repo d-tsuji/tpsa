@@ -4,7 +4,8 @@
 
 This repository that solves the Traveling Salesman Problem (TSP) using **Temperature Parallel Simulated Annealing** (TPSA). TPSA is a concurrent algorithm for the simulated annealing method, which is published in the following paper.
 
-[Temperature Parallel Simulated Annealing Algorithm and Its Evaluation](http://id.nii.ac.jp/1001/00013940/)
+- [Temperature Parallel Simulated Annealing with Adaptive Neighborhood for Continuous Optimization Problem](http://www.is.doshisha.ac.jp/academic/papers/pdf/02/20020801-jitta.pdf)
+- [Temperature Parallel Simulated Annealing Algorithm and Its Evaluation](http://id.nii.ac.jp/1001/00013940/)
 
 The feature of this repository is that it uses channel and goroutine in Go for concurrency (without using OpenMP etc...), so you can understand the greatness of concurrency mechanism in Go.
 
